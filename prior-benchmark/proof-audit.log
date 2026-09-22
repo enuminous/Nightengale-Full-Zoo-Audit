@@ -1,0 +1,98 @@
+'Zoo.Tortoise.split_reconstructs' depends on axioms: [propext]
+'Zoo.Tortoise.train_precedes_test' does not depend on any axioms
+'Zoo.Owl.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Owl.valid_column_count' does not depend on any axioms
+'Zoo.Owl.report_requires_freeze' does not depend on any axioms
+'Zoo.Octopus.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Octopus.valid_column_count' does not depend on any axioms
+'Zoo.Octopus.report_requires_freeze' does not depend on any axioms
+'Zoo.Gecko.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Gecko.valid_column_count' does not depend on any axioms
+'Zoo.Gecko.report_requires_freeze' does not depend on any axioms
+'Zoo.Hive.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Hive.valid_column_count' does not depend on any axioms
+'Zoo.Hive.report_requires_freeze' does not depend on any axioms
+'Zoo.Eagle.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Eagle.valid_column_count' does not depend on any axioms
+'Zoo.Eagle.report_requires_freeze' does not depend on any axioms
+'Zoo.Crab.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Crab.valid_column_count' does not depend on any axioms
+'Zoo.Crab.report_requires_freeze' does not depend on any axioms
+'Zoo.Shepherd.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Shepherd.valid_column_count' does not depend on any axioms
+'Zoo.Shepherd.report_requires_freeze' does not depend on any axioms
+'Zoo.Pulse.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Pulse.valid_column_count' does not depend on any axioms
+'Zoo.Pulse.report_requires_freeze' does not depend on any axioms
+'Zoo.Cat.positive_removal_hurt' depends on axioms: [propext, Classical.choice]
+'Zoo.Cat.removal_hurts_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zoo.Fox.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Fox.valid_column_count' does not depend on any axioms
+'Zoo.Fox.report_requires_freeze' does not depend on any axioms
+'Zoo.Spider.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Spider.valid_column_count' does not depend on any axioms
+'Zoo.Spider.report_requires_freeze' does not depend on any axioms
+'Zoo.Raven.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Raven.valid_column_count' does not depend on any axioms
+'Zoo.Raven.report_requires_freeze' does not depend on any axioms
+'Zoo.Dolphin.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Dolphin.valid_column_count' does not depend on any axioms
+'Zoo.Dolphin.report_requires_freeze' does not depend on any axioms
+'Zoo.Ant.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Ant.valid_column_count' does not depend on any axioms
+'Zoo.Ant.report_requires_freeze' does not depend on any axioms
+'Zoo.Moth.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Moth.valid_column_count' does not depend on any axioms
+'Zoo.Moth.report_requires_freeze' does not depend on any axioms
+'Zoo.Shark.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Shark.valid_column_count' does not depend on any axioms
+'Zoo.Shark.report_requires_freeze' does not depend on any axioms
+'Zoo.Penguin.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Penguin.valid_column_count' does not depend on any axioms
+'Zoo.Penguin.report_requires_freeze' does not depend on any axioms
+'Zoo.Bat.placebo_has_priority' depends on axioms: [propext, Classical.choice]
+'Zoo.Hedgehog.heldout_not_development' does not depend on any axioms
+'Zoo.Crocodile.common_shift_cancels' depends on axioms: [propext, Quot.sound]
+'Zoo.Crocodile.causal_requires_design' does not depend on any axioms
+'Zoo.Dragon.output_length' depends on axioms: [propext, Classical.choice]
+'Zoo.Dragon.valid_column_count' does not depend on any axioms
+'Zoo.Dragon.report_requires_freeze' does not depend on any axioms
+'Zoo.Turtle.applicable_veto_blocks_support' depends on axioms: [propext, Classical.choice]
+'Zoo.Turtle.empty_is_insufficient' depends on axioms: [propext, Classical.choice]
+'Zoo.Magpie.no_history_no_alarm' depends on axioms: [propext, Classical.choice]
+'Zoo.Wolf.alarm_requires_distributed_support' does not depend on any axioms
+'Zoo.Elephant.current_members_active' depends on axioms: [propext]
+'Zoo.Elephant.zero_fuel_stops' does not depend on any axioms
+'Zoo.Chameleon.excess_nonnegative' depends on axioms: [propext]
+'Zoo.Chameleon.expected_explains' depends on axioms: [propext, Quot.sound]
+'Zoo.Jellyfish.node_count_preserved' depends on axioms: [propext]
+'Zoo.Beaver.accepted_requires_rollback' does not depend on any axioms
+'Zoo.Beaver.accepted_requires_bounds' does not depend on any axioms
+'Zoo.Mantis.unready_calibrates' depends on axioms: [propext, Classical.choice]
+'Zoo.Bison.queue_bounded' depends on axioms: [propext]
+'Zoo.Weasel.retained_within_budget' depends on axioms: [propext, Classical.choice]
+'Zoo.Salmon.exhaustion_not_origin' depends on axioms: [propext]
+'Zoo.Orca.complete_requires_ack' does not depend on any axioms
+'Zoo.Mole.no_indicators_no_failure_claim' depends on axioms: [propext, Classical.choice]
+'Zoo.Lynx.emergent_requires_replication' depends on axioms: [propext, Classical.choice]
+'Zoo.Horse.handoff_retains_uncertainty' does not depend on any axioms
+'Zoo.Termite.population_preserved' depends on axioms: [propext, Classical.choice]
+'Zoo.Phoenix.stable_requires_every_checkpoint' does not depend on any axioms
+'Zoo.Cobra.nonimproving_proxy_zero' depends on axioms: [propext, Quot.sound]
+'Zoo.Whale.empty_history_zero_gap' depends on axioms: [propext, Classical.choice]
+'Zoo.Falcon.positive_margin_iff_on_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Zoo.Falcon.absent_alarm_no_timing' does not depend on any axioms
+'Zoo.Rhino.survives_selected_invariant' does not depend on any axioms
+'Zoo.Bonobo.mutual_gain_excludes_loser' depends on axioms: [propext, Quot.sound]
+'Zoo.Axolotl.acceptable_retains_invariants' depends on axioms: [propext, Classical.choice]
+'Zoo.Butterfly.run_records_initial_and_steps' depends on axioms: [propext]
+'Zoo.admissible_no_leakage' does not depend on any axioms
+'Zoo.not_admissible_if_unfrozen' does not depend on any axioms
+'Zoo.rankScores_length' depends on axioms: [propext, Classical.choice]
+'Zoo.firstIndex_nil' does not depend on any axioms
+'Zoo.hasVeto_cons' depends on axioms: [propext]
+'Zoo.memoryNumerator_sign' depends on axioms: [propext, Quot.sound]
+'Zoo.memoryNumerator_zero' does not depend on any axioms
+'Zoo.Registry.exactly_forty_six' does not depend on any axioms
+'Zoo.Registry.no_duplicate_animals' does not depend on any axioms
+'Zoo.Registry.names_match_count' does not depend on any axioms

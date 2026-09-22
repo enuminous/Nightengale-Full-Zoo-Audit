@@ -1,0 +1,233 @@
+{
+  "source": "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "cpu_count": 9,
+  "steps": [
+    {
+      "label": "static_audit",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "verify.py"
+      ],
+      "seconds": 0.058537096000009115,
+      "exit_code": 0
+    },
+    {
+      "label": "toolchain",
+      "command": [
+        "/tmp/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "seconds": 0.5316373619999979,
+      "exit_code": 0
+    },
+    {
+      "label": "build",
+      "command": [
+        "/tmp/lean-4.19.0-linux/bin/lake",
+        "build",
+        "Zoo",
+        "zoo46",
+        "regression"
+      ],
+      "seconds": 3.3413793660000124,
+      "exit_code": 0
+    },
+    {
+      "label": "proof_audit",
+      "command": [
+        "/tmp/lean-4.19.0-linux/bin/lake",
+        "env",
+        "lean",
+        "ProofAudit.lean"
+      ],
+      "seconds": 0.8249292460000106,
+      "exit_code": 0
+    },
+    {
+      "label": "roster",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/zoo46"
+      ],
+      "seconds": 0.005804019999999355,
+      "exit_code": 0
+    },
+    {
+      "label": "regression",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.0051274219999868365,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_0",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.00494911300000922,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_1",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004625851999975339,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_2",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.005285061000023461,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_3",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004831359999997176,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_4",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004438798999984783,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_5",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.005461478999990277,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_6",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004352263999976458,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_7",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004262042999982896,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_8",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004682788000025084,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_9",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004471919999986085,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_10",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004857087999994292,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_11",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004453579999989188,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_12",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004847267000002375,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_13",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.005552878999992572,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_14",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004743940000025759,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_15",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.005436610000003839,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_16",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.004475694999996449,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_17",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.005723673000005647,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_18",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.0048755500000083885,
+      "exit_code": 0
+    },
+    {
+      "label": "regression_timing_19",
+      "command": [
+        "/workspace/scratch/a13ab0b19ecf/zoo-benchmark-repaired/.lake/build/bin/regression"
+      ],
+      "seconds": 0.041902157000009765,
+      "exit_code": 0
+    }
+  ],
+  "regression_timing": {
+    "n": 20,
+    "median_seconds": 0.0048393134999997756,
+    "min_seconds": 0.004262042999982896,
+    "max_seconds": 0.041902157000009765
+  }
+}
