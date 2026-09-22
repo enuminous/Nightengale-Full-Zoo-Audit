@@ -1,0 +1,56 @@
+{
+  "effects": [
+    {
+      "feature": "x",
+      "depth": 1,
+      "centers": [
+        0.15047664610271533,
+        0.4936648205661306,
+        1.0520714770681026,
+        4.559429376137058
+      ],
+      "effects": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "amplitude": 0.0,
+      "stability": null,
+      "stop_reason": "effect_below_tolerance",
+      "children": []
+    },
+    {
+      "feature": "y",
+      "depth": 1,
+      "centers": [
+        -0.0500714711794121,
+        0.5060273897440326,
+        1.060378170619071,
+        4.623871761201375
+      ],
+      "effects": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "amplitude": 0.0,
+      "stability": null,
+      "stop_reason": "effect_below_tolerance",
+      "children": []
+    }
+  ]
+}

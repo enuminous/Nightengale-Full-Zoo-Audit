@@ -1,0 +1,1000 @@
+{
+  "zoo_commit": "94e0a9e2550a8fe62b03dc8213e3e3942c30899b",
+  "nightingale_commit": "849c39363beafc3dac70430bf1f032e7f7ce1623",
+  "local_repairs": [
+    "restore .gitignore",
+    "FALCON decidability expression and checksum"
+  ],
+  "seed": 92246,
+  "rows_per_animal": 256,
+  "config": {
+    "bins": 4,
+    "max_depth": 2,
+    "min_samples": 16,
+    "effect_tolerance": 1e-08,
+    "bootstrap": 10,
+    "stability_threshold": 0.5,
+    "random_state": 92246
+  },
+  "sampling": "independent uniform within each listed range; synthetic, not empirical",
+  "criteria": {
+    "execution": "all selected outputs finite; all 46 results serialized",
+    "null": "constant model has zero root amplitudes",
+    "additive": "recursive nodes are descriptive associations, not interaction proofs; report any children on additive control",
+    "repeatability": "rerun source-pinned script with same seeds and toolchain"
+  },
+  "specifications": [
+    {
+      "animal": "Tortoise",
+      "features": [
+        {
+          "name": "candidate_brier",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "control_brier",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Tortoise.gain \u27e8x,y\u27e9",
+      "scope": "Brier gain only; prospective split obligations excluded."
+    },
+    {
+      "animal": "Owl",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Owl.run \u27e8\u27e8cols (Owl.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Octopus",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Octopus.run \u27e8\u27e8cols (Octopus.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Gecko",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Gecko.run \u27e8\u27e8cols (Gecko.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Hive",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Hive.run \u27e8\u27e8cols (Hive.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Eagle",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Eagle.run \u27e8\u27e8cols (Eagle.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Crab",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Crab.run \u27e8\u27e8cols (Crab.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Shepherd",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Shepherd.run \u27e8\u27e8cols (Shepherd.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Pulse",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Pulse.run \u27e8\u27e8cols (Pulse.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Cat",
+      "features": [
+        {
+          "name": "ablated_brier",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "full_brier",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Cat.penalty x y",
+      "scope": "Ablation penalty."
+    },
+    {
+      "animal": "Fox",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Fox.run \u27e8\u27e8cols (Fox.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Spider",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Spider.run \u27e8\u27e8cols (Spider.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Raven",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Raven.run \u27e8\u27e8cols (Raven.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Dolphin",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Dolphin.run \u27e8\u27e8cols (Dolphin.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Ant",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Ant.run \u27e8\u27e8cols (Ant.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Moth",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Moth.run \u27e8\u27e8cols (Moth.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Shark",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Shark.run \u27e8\u27e8cols (Shark.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Penguin",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Penguin.run \u27e8\u27e8cols (Penguin.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Bat",
+      "features": [
+        {
+          "name": "gain",
+          "lo": -0.01,
+          "hi": 0.01
+        },
+        {
+          "name": "placebo_gain",
+          "lo": -0.01,
+          "hi": 0.01
+        },
+        {
+          "name": "incremental_brier",
+          "lo": 0,
+          "hi": 1
+        }
+      ],
+      "expression": "bit (Bat.run \u27e8x,y,z,0.5,0.002\u27e9 == .survives)",
+      "scope": "Survives indicator; placebo Brier 0.5, material gain 0.002."
+    },
+    {
+      "animal": "Hedgehog",
+      "features": [
+        {
+          "name": "median_gain",
+          "lo": -0.01,
+          "hi": 0.01
+        },
+        {
+          "name": "win_rate",
+          "lo": 0,
+          "hi": 1
+        }
+      ],
+      "expression": "bit (Hedgehog.run \u27e8x,y,0.002,true\u27e9 == .generalizes)",
+      "scope": "Generalizes indicator; habitat support true."
+    },
+    {
+      "animal": "Crocodile",
+      "features": [
+        {
+          "name": "treated_post",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "treated_pre",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "control_post",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Crocodile.did x y z 0.5",
+      "scope": "Difference in differences; control pre 0.5; identification assumptions not tested."
+    },
+    {
+      "animal": "Dragon",
+      "features": [
+        {
+          "name": "focal_even",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "focal_odd",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "reference_shift",
+          "lo": -0.2,
+          "hi": 0.2
+        }
+      ],
+      "expression": "(Dragon.run \u27e8\u27e8cols (Dragon.expectedColumns 1) x y z,10\u27e9,1\u27e9).getD 0 0.0",
+      "scope": "Focal row percentile score; one horizon; alternating focal values across all required columns, nine shifted reference rows. Feature extraction excluded."
+    },
+    {
+      "animal": "Turtle",
+      "features": [
+        {
+          "name": "score",
+          "lo": -0.3,
+          "hi": 0.3
+        },
+        {
+          "name": "veto_gate",
+          "lo": 0,
+          "hi": 1
+        }
+      ],
+      "expression": "bit (Turtle.run \u27e8true,decide (y > 0.5),3,3,0,x,3,0.18,0.05\u27e9 == .supported)",
+      "scope": "Supported indicator; three positive groups, no negative groups; veto Boolean encoded at >0.5."
+    },
+    {
+      "animal": "Magpie",
+      "features": [
+        {
+          "name": "support",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "provenance",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "contradiction",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Magpie.groundedness \u27e80.5,x,y,0.5,0.2,0.1,z,none,0.25\u27e9",
+      "scope": "Groundedness; corroboration 0.5, unsupported inference 0.2, unresolved provenance 0.1; no alarm audit."
+    },
+    {
+      "animal": "Wolf",
+      "features": [
+        {
+          "name": "rho",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "previous",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "instantaneous",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Wolf.update x y z",
+      "scope": "EMA update; distributed alarm gates excluded."
+    },
+    {
+      "animal": "Elephant",
+      "features": [
+        {
+          "name": "active_gate_1",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "active_gate_2",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "active_gate_3",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "natFloat (Elephant.current [\u27e80,0,status x,none,\"synthetic\"\u27e9,\u27e81,1,status y,none,\"synthetic\"\u27e9,\u27e82,2,status z,none,\"synthetic\"\u27e9]).length",
+      "scope": "Count of active events; statuses active iff gate >0.5; lineage excluded."
+    },
+    {
+      "animal": "Chameleon",
+      "features": [
+        {
+          "name": "observed_distance",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "expected_adaptation",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Chameleon.unexplained x y",
+      "scope": "Nonnegative unexplained distance."
+    },
+    {
+      "animal": "Jellyfish",
+      "features": [
+        {
+          "name": "health",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "alpha",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "incoming",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Jellyfish.nextHealth x y z",
+      "scope": "One-step health update."
+    },
+    {
+      "animal": "Beaver",
+      "features": [
+        {
+          "name": "effectiveness",
+          "lo": 0,
+          "hi": 0.1
+        },
+        {
+          "name": "collateral",
+          "lo": 0,
+          "hi": 0.4
+        },
+        {
+          "name": "verification",
+          "lo": 0,
+          "hi": 2
+        }
+      ],
+      "expression": "beaver x y z",
+      "scope": "Acceptance indicator; bounded and rollbackVerified true. Flags not evidence of real rollback."
+    },
+    {
+      "animal": "Mantis",
+      "features": [
+        {
+          "name": "z_variance",
+          "lo": -1,
+          "hi": 4
+        },
+        {
+          "name": "z_autocorrelation",
+          "lo": -1,
+          "hi": 4
+        },
+        {
+          "name": "z_curvature",
+          "lo": -1,
+          "hi": 4
+        }
+      ],
+      "expression": "bit (Mantis.run \u27e8true,x,y,z,2.0,0.5\u27e9 == .intervene)",
+      "scope": "Intervene indicator, ready true; threshold 2, coherence minimum 0.5."
+    },
+    {
+      "animal": "Bison",
+      "features": [
+        {
+          "name": "demand",
+          "lo": 0,
+          "hi": 10
+        },
+        {
+          "name": "queue",
+          "lo": 0,
+          "hi": 10
+        },
+        {
+          "name": "capacity",
+          "lo": 0,
+          "hi": 10
+        }
+      ],
+      "expression": "(Bison.step \u27e8x,y,z,5.0\u27e9).dropped",
+      "scope": "Dropped demand; queue limit 5."
+    },
+    {
+      "animal": "Weasel",
+      "features": [
+        {
+          "name": "changed_keys_gate",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "severity",
+          "lo": -1,
+          "hi": 1
+        }
+      ],
+      "expression": "bit (Weasel.admissible 1 \u27e8(if x > 0.5 then 2 else 1),y,0.5,1.0\u27e9)",
+      "scope": "Admissibility with budget 1; changed keys 1 or 2, fixed cost/reproducibility."
+    },
+    {
+      "animal": "Salmon",
+      "features": [
+        {
+          "name": "weight",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "parent_weight_1",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "parent_weight_2",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Salmon.unresolvedMass x [\u27e80,2,y\u27e9,\u27e81,2,z\u27e9]",
+      "scope": "Unresolved mass for two parents; traversal excluded."
+    },
+    {
+      "animal": "Orca",
+      "features": [
+        {
+          "name": "consistency",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "integrity",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "conflict",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Orca.coordination x y z 0.2 1.0",
+      "scope": "Coordination; ambiguity 0.2, lag 1."
+    },
+    {
+      "animal": "Mole",
+      "features": [
+        {
+          "name": "surface_health",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "latent_degradation",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "coverage",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "bit (Mole.hiddenFailure \u27e8true,x,y,z,0.25,0.5\u27e9)",
+      "scope": "Hidden-failure indicator; indicators present true."
+    },
+    {
+      "animal": "Lynx",
+      "features": [
+        {
+          "name": "distance",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "rarity",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "replication",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Lynx.latentYield \u27e8x,y,0.2,z,0.8,0.5,0.5,0.5,0.4,0.6\u27e9",
+      "scope": "Latent yield; rediscovery 0.2, yield score 0.8; default weights."
+    },
+    {
+      "animal": "Horse",
+      "features": [
+        {
+          "name": "workload",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "attention",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "fatigue",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Horse.workloadPenalty x y z",
+      "scope": "Workload penalty; handoff and joint effectiveness excluded."
+    },
+    {
+      "animal": "Termite",
+      "features": [
+        {
+          "name": "state",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "susceptibility",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "incoming_target",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Termite.stepAgent \u27e8x,y,0.0\u27e9 z 1.0",
+      "scope": "Single-agent update; bias 0, total weight 1."
+    },
+    {
+      "animal": "Phoenix",
+      "features": [
+        {
+          "name": "fidelity",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "integrity",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "capability",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Phoenix.completeness x y z",
+      "scope": "Completeness; hold-window behavior excluded."
+    },
+    {
+      "animal": "Cobra",
+      "features": [
+        {
+          "name": "previous",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "divergence",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "confidence",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Cobra.risk \u27e8x,y,0.2,0.0,0.0,0.2,z,0.8\u27e9",
+      "scope": "Risk; violation/context gap 0.2, proxy/goal deltas 0, persistence 0.8."
+    },
+    {
+      "animal": "Whale",
+      "features": [
+        {
+          "name": "history_1",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "history_2",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "history_3",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Whale.cumulativeDeviation [x,y,z] 0.5",
+      "scope": "Cumulative deviation; baseline 0.5."
+    },
+    {
+      "animal": "Falcon",
+      "features": [
+        {
+          "name": "hazard_time",
+          "lo": 10,
+          "hi": 100
+        },
+        {
+          "name": "alarm_time",
+          "lo": 0,
+          "hi": 100
+        },
+        {
+          "name": "delay",
+          "lo": 0,
+          "hi": 20
+        }
+      ],
+      "expression": "intFloat (Falcon.reactionMargin (asInt x) (asInt y) (asInt z))",
+      "scope": "Reaction margin in integer ticks; nonnegative floats truncated to integers."
+    },
+    {
+      "animal": "Rhino",
+      "features": [
+        {
+          "name": "baseline",
+          "lo": 0.1,
+          "hi": 1
+        },
+        {
+          "name": "after",
+          "lo": 0,
+          "hi": 1
+        }
+      ],
+      "expression": "Rhino.retention x y",
+      "scope": "Retention away from zero baseline; singular branch excluded."
+    },
+    {
+      "animal": "Bonobo",
+      "features": [
+        {
+          "name": "baseline_utility",
+          "lo": 0.0,
+          "hi": 1.0
+        },
+        {
+          "name": "new_utility",
+          "lo": 0.0,
+          "hi": 1.0
+        }
+      ],
+      "expression": "Bonobo.gain x y",
+      "scope": "Utility gain; multi-participant mutual-gain contract excluded."
+    },
+    {
+      "animal": "Axolotl",
+      "features": [
+        {
+          "name": "damaged",
+          "lo": 0,
+          "hi": 0.8
+        },
+        {
+          "name": "adapted",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "cost",
+          "lo": 0.1,
+          "hi": 1
+        }
+      ],
+      "expression": "Axolotl.resilience \u27e81.0,x,y,z,0.3,1.0\u27e9",
+      "scope": "Resilience; reference 1, transformation 0.3, invariant retention 1."
+    },
+    {
+      "animal": "Butterfly",
+      "features": [
+        {
+          "name": "state",
+          "lo": 0,
+          "hi": 2
+        },
+        {
+          "name": "gain",
+          "lo": 0,
+          "hi": 1
+        },
+        {
+          "name": "incoming",
+          "lo": 0,
+          "hi": 1
+        }
+      ],
+      "expression": "Butterfly.stepLayer \u27e8x,0.1,y,1.0\u27e9 z",
+      "scope": "Single-layer output; base 0.1, threshold 1; trajectory excluded."
+    }
+  ]
+}

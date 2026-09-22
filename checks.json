@@ -1,0 +1,14 @@
+{
+  "animals_executed": 46,
+  "all_outputs_finite": true,
+  "anchor_checks": 6,
+  "constant_control_pass": true,
+  "lean_process_calls": 1092,
+  "lean_rows_evaluated": 78342,
+  "elapsed_seconds": 51.71770413400009,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "protocol_sha256": "ad65f52e2d60573bbd5f86041815d5bb909f9db7f8c63a2a8d38efd5bc7d92bd",
+  "binary_sha256": "84888cab85138d390574b109e90566626de254170e9c604f550635a2650ffb64"
+}

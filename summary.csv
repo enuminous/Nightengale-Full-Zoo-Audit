@@ -1,0 +1,47 @@
+animal,endpoint,output_min,output_max,root_count,dominant_feature,dominant_amplitude,recursive_nodes
+Tortoise,"Tortoise.gain ⟨x,y⟩",-0.8757208761619433,0.9655876495785788,2,candidate_brier,0.7615858162877376,2
+Owl,"(Owl.run ⟨⟨cols (Owl.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,1.0,3,focal_odd,0.29140625000000003,6
+Octopus,"(Octopus.run ⟨⟨cols (Octopus.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.15,1.0,3,focal_odd,0.28437499999999993,6
+Gecko,"(Gecko.run ⟨⟨cols (Gecko.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.15000000000000002,1.0,3,focal_odd,0.31484375000000003,6
+Hive,"(Hive.run ⟨⟨cols (Hive.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,1.0,3,focal_even,0.296875,6
+Eagle,"(Eagle.run ⟨⟨cols (Eagle.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,1.0,3,focal_odd,0.30390625000000004,6
+Crab,"(Crab.run ⟨⟨cols (Crab.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,1.0,3,focal_odd,0.284375,6
+Shepherd,"(Shepherd.run ⟨⟨cols (Shepherd.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,1.0,3,focal_odd,0.28671875,6
+Pulse,"(Pulse.run ⟨⟨cols (Pulse.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,1.0,3,focal_even,0.27812499999999996,6
+Cat,Cat.penalty x y,-0.847951338409463,0.8853090978010009,2,full_brier,0.7681633515445596,2
+Fox,"(Fox.run ⟨⟨cols (Fox.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.15000000000000002,0.9500000000000002,3,focal_even,0.29218750000000004,6
+Spider,"(Spider.run ⟨⟨cols (Spider.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,1.0,3,focal_odd,0.29921875,6
+Raven,"(Raven.run ⟨⟨cols (Raven.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,1.0,3,focal_even,0.33303571428571427,6
+Dolphin,"(Dolphin.run ⟨⟨cols (Dolphin.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,1.0,3,focal_even,0.30170454545454545,6
+Ant,"(Ant.run ⟨⟨cols (Ant.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,0.9545454545454547,3,focal_even,0.31022727272727274,6
+Moth,"(Moth.run ⟨⟨cols (Moth.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,1.0,3,focal_even,0.34107142857142864,6
+Shark,"(Shark.run ⟨⟨cols (Shark.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.1,0.953846153846154,3,focal_even,0.2944711538461539,6
+Penguin,"(Penguin.run ⟨⟨cols (Penguin.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,0.95,3,focal_odd,0.28203125000000007,6
+Bat,"bit (Bat.run ⟨x,y,z,0.5,0.002⟩ == .survives)",0.0,1.0,3,gain,0.59375,6
+Hedgehog,"bit (Hedgehog.run ⟨x,y,0.002,true⟩ == .generalizes)",0.0,1.0,2,win_rate,0.578125,2
+Crocodile,Crocodile.did x y z 0.5,-1.32421998087295,1.3421036317900432,3,treated_pre,0.7598017195274487,6
+Dragon,"(Dragon.run ⟨⟨cols (Dragon.expectedColumns 1) x y z,10⟩,1⟩).getD 0 0.0",0.09999999999999999,1.0,3,focal_even,0.3085227272727273,6
+Turtle,"bit (Turtle.run ⟨true,decide (y > 0.5),3,3,0,x,3,0.18,0.05⟩ == .supported)",0.0,1.0,2,score,0.5625,2
+Magpie,"Magpie.groundedness ⟨0.5,x,y,0.5,0.2,0.1,z,none,0.25⟩",0.32274988957122097,0.8507759109876941,3,contradiction,0.19741724105050365,6
+Wolf,Wolf.update x y z,0.02965116107796356,0.9575325669941694,3,instantaneous,0.37641702026846174,6
+Elephant,"natFloat (Elephant.current [⟨0,0,status x,none,""synthetic""⟩,⟨1,1,status y,none,""synthetic""⟩,⟨2,2,status z,none,""synthetic""⟩]).length",0.0,3.0,3,active_gate_1,1.0,6
+Chameleon,Chameleon.unexplained x y,0.0,0.8820845785788114,2,observed_distance,0.4377784479534551,2
+Jellyfish,Jellyfish.nextHealth x y z,0.0,0.9907920509403689,3,health,0.702125985842457,6
+Beaver,beaver x y z,0.0,1.0,3,effectiveness,0.28125,6
+Mantis,"bit (Mantis.run ⟨true,x,y,z,2.0,0.5⟩ == .intervene)",0.0,1.0,3,z_variance,0.671875,6
+Bison,"(Bison.step ⟨x,y,z,5.0⟩).dropped",0.0,11.975525471822422,3,demand,4.5345219861866175,6
+Weasel,"bit (Weasel.admissible 1 ⟨(if x > 0.5 then 2 else 1),y,0.5,1.0⟩)",0.0,1.0,2,changed_keys_gate,0.484375,2
+Salmon,"Salmon.unresolvedMass x [⟨0,2,y⟩,⟨1,2,z⟩]",0.0,0.7638021191264075,3,parent_weight_1,0.15636291464127258,6
+Orca,Orca.coordination x y z 0.2 1.0,0.22862530676898257,0.957855782225271,3,integrity,0.22427831886147975,6
+Mole,"bit (Mole.hiddenFailure ⟨true,x,y,z,0.25,0.5⟩)",0.0,1.0,3,surface_health,0.390625,6
+Lynx,"Lynx.latentYield ⟨x,y,0.2,z,0.8,0.5,0.5,0.5,0.4,0.6⟩",0.0,0.6344314276461595,3,replication,0.21544357636734984,6
+Horse,Horse.workloadPenalty x y z,0.010026138783838734,1.0,3,attention,0.37140710080495093,6
+Termite,"Termite.stepAgent ⟨x,y,0.0⟩ z 1.0",0.014137284145124633,0.9672944125022911,3,incoming_target,0.41162818372063226,6
+Phoenix,Phoenix.completeness x y z,0.07364330511403343,0.9489231907279492,3,fidelity,0.30119111140790517,6
+Cobra,"Cobra.risk ⟨x,y,0.2,0.0,0.0,0.2,z,0.8⟩",0.0008986353897689435,0.3776953197900017,3,confidence,0.1956202885680946,6
+Whale,"Whale.cumulativeDeviation [x,y,z] 0.5",0.06386107451181922,0.4528407322610348,3,history_3,0.15835855980117386,6
+Falcon,intFloat (Falcon.reactionMargin (asInt x) (asInt y) (asInt z)),-97.0,83.0,3,alarm_time,74.0,6
+Rhino,Rhino.retention x y,0.007008554310879711,1.0,2,after,0.5074077971318078,2
+Bonobo,Bonobo.gain x y,-0.8950476741772091,0.897849040847276,2,baseline_utility,0.764061894328036,2
+Axolotl,"Axolotl.resilience ⟨1.0,x,y,z,0.3,1.0⟩",0.3,0.8935557411227223,3,adapted,0.5020452441032157,6
+Butterfly,"Butterfly.stepLayer ⟨x,0.1,y,1.0⟩ z",0.10657408559699746,1.6420346416660687,3,incoming,0.7140685856611536,6

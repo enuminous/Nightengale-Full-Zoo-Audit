@@ -1,0 +1,7 @@
+⚠ [18/102] Replayed Moth
+warning: zoo-nightingale-work/./././Moth.lean:12:21: unused variable `horizons`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+✔ [100/102] Built NightAudit
+✔ [101/102] Built NightAudit:c.o
+✔ [102/102] Built nightaudit
+Build completed successfully.

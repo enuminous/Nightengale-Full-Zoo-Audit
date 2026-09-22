@@ -1,0 +1,381 @@
+animal,path,depth,amplitude,stability,stop_reason,min_bin_count
+Tortoise,candidate_brier,1,0.7615858162877376,,,64
+Tortoise,candidate_brier -> control_brier,2,0.006939078547839733,0.7344085976146193,max_depth,64
+Tortoise,control_brier,1,0.7151986650709219,,,64
+Tortoise,control_brier -> candidate_brier,2,0.004114865952647956,0.6914615367258683,max_depth,64
+Owl,focal_even,1,0.290625,,,64
+Owl,focal_even -> focal_odd,2,0.004687499999999983,0.8652946613118593,max_depth,64
+Owl,focal_even -> reference_shift,2,0.014843750000000003,0.954570976271288,max_depth,64
+Owl,focal_odd,1,0.29140625000000003,,,64
+Owl,focal_odd -> focal_even,2,0.003906249999999986,0.5564140909703875,max_depth,64
+Owl,focal_odd -> reference_shift,2,0.009375000000000008,0.8731843695222836,max_depth,64
+Owl,reference_shift,1,0.2234375,,,64
+Owl,reference_shift -> focal_even,2,0.004687499999999983,0.19515062032203845,bootstrap_instability,64
+Owl,reference_shift -> focal_odd,2,0.008593750000000011,0.8621962780904229,max_depth,64
+Octopus,focal_even,1,0.27656250000000004,,,64
+Octopus,focal_even -> focal_odd,2,0.0023437499999999917,0.07748581830789618,bootstrap_instability,64
+Octopus,focal_even -> reference_shift,2,0.004687499999999983,0.6199101763534659,max_depth,64
+Octopus,focal_odd,1,0.28437499999999993,,,64
+Octopus,focal_odd -> focal_even,2,0.007031250000000017,0.6876832124679388,max_depth,64
+Octopus,focal_odd -> reference_shift,2,0.014062499999999978,0.9468387350032466,max_depth,64
+Octopus,reference_shift,1,0.228125,,,64
+Octopus,reference_shift -> focal_even,2,0.006249999999999992,0.6726673673060621,max_depth,64
+Octopus,reference_shift -> focal_odd,2,0.009374999999999994,0.8445719919405739,max_depth,64
+Gecko,focal_even,1,0.28671875,,,64
+Gecko,focal_even -> focal_odd,2,0.008593749999999997,0.7933468957080898,max_depth,64
+Gecko,focal_even -> reference_shift,2,0.014062500000000006,0.9394461707250389,max_depth,64
+Gecko,focal_odd,1,0.31484375000000003,,,64
+Gecko,focal_odd -> focal_even,2,0.017187499999999994,0.9600403650032527,max_depth,64
+Gecko,focal_odd -> reference_shift,2,0.013281250000000008,0.9362971077639335,max_depth,64
+Gecko,reference_shift,1,0.24375,,,64
+Gecko,reference_shift -> focal_even,2,0.013281249999999994,0.9599607236509486,max_depth,64
+Gecko,reference_shift -> focal_odd,2,0.007031250000000003,0.7567780562829323,max_depth,64
+Hive,focal_even,1,0.296875,,,64
+Hive,focal_even -> focal_odd,2,0.008680555555555539,0.8704737166506393,max_depth,64
+Hive,focal_even -> reference_shift,2,0.01822916666666667,0.9527200808774117,max_depth,64
+Hive,focal_odd,1,0.26249999999999996,,,64
+Hive,focal_odd -> focal_even,2,0.006249999999999992,0.890288448595465,max_depth,64
+Hive,focal_odd -> reference_shift,2,0.012499999999999983,0.9244493651341059,max_depth,64
+Hive,reference_shift,1,0.2375,,,64
+Hive,reference_shift -> focal_even,2,0.0078125,0.8107451877188594,max_depth,64
+Hive,reference_shift -> focal_odd,2,0.014062499999999992,0.9212594099968527,max_depth,64
+Eagle,focal_even,1,0.28828125000000004,,,64
+Eagle,focal_even -> focal_odd,2,0.01171875,0.9267048701124121,max_depth,64
+Eagle,focal_even -> reference_shift,2,0.010937500000000003,0.9602294432204288,max_depth,64
+Eagle,focal_odd,1,0.30390625000000004,,,64
+Eagle,focal_odd -> focal_even,2,0.014062500000000033,0.8994926410349511,max_depth,64
+Eagle,focal_odd -> reference_shift,2,0.007031250000000003,0.8805082115839765,max_depth,64
+Eagle,reference_shift,1,0.24062499999999998,,,64
+Eagle,reference_shift -> focal_even,2,0.008593749999999983,0.7074725106226898,max_depth,64
+Eagle,reference_shift -> focal_odd,2,0.009375000000000008,0.8554206354879406,max_depth,64
+Crab,focal_even,1,0.2718750000000001,,,64
+Crab,focal_even -> focal_odd,2,0.012499999999999983,0.9001402725703636,max_depth,64
+Crab,focal_even -> reference_shift,2,0.014843750000000003,0.8666913361382689,max_depth,64
+Crab,focal_odd,1,0.284375,,,64
+Crab,focal_odd -> focal_even,2,0.0054687499999999944,0.8331022964368551,max_depth,64
+Crab,focal_odd -> reference_shift,2,0.014843749999999975,0.929802912040695,max_depth,64
+Crab,reference_shift,1,0.21328124999999998,,,64
+Crab,reference_shift -> focal_even,2,0.0054687499999999944,0.8790626692761085,max_depth,64
+Crab,reference_shift -> focal_odd,2,0.01640624999999997,0.8522711097017781,max_depth,64
+Shepherd,focal_even,1,0.2765625000000001,,,64
+Shepherd,focal_even -> focal_odd,2,0.007031249999999989,0.4017512723025872,bootstrap_instability,64
+Shepherd,focal_even -> reference_shift,2,0.008593749999999983,0.739146761208664,max_depth,64
+Shepherd,focal_odd,1,0.28671875,,,64
+Shepherd,focal_odd -> focal_even,2,0.009374999999999994,0.7501422000153741,max_depth,64
+Shepherd,focal_odd -> reference_shift,2,0.012500000000000039,0.9648420142696859,max_depth,64
+Shepherd,reference_shift,1,0.21718749999999998,,,64
+Shepherd,reference_shift -> focal_even,2,0.017968749999999964,0.8926495491283071,max_depth,64
+Shepherd,reference_shift -> focal_odd,2,0.013281250000000022,0.9308359230385854,max_depth,64
+Pulse,focal_even,1,0.27812499999999996,,,64
+Pulse,focal_even -> focal_odd,2,0.0031250000000000028,0.7695643851784919,max_depth,64
+Pulse,focal_even -> reference_shift,2,0.010937499999999989,0.9038317201787887,max_depth,64
+Pulse,focal_odd,1,0.2609375,,,64
+Pulse,focal_odd -> focal_even,2,0.005468750000000008,0.5309378046279652,max_depth,64
+Pulse,focal_odd -> reference_shift,2,0.017187500000000022,0.968317953906936,max_depth,64
+Pulse,reference_shift,1,0.24609375000000006,,,64
+Pulse,reference_shift -> focal_even,2,0.004687500000000039,0.42105784301601246,bootstrap_instability,64
+Pulse,reference_shift -> focal_odd,2,0.007031250000000003,0.7016350045486331,max_depth,64
+Cat,ablated_brier,1,0.7470026469898376,,,64
+Cat,ablated_brier -> full_brier,2,0.0037764993732974372,0.7748571477710554,max_depth,64
+Cat,full_brier,1,0.7681633515445596,,,64
+Cat,full_brier -> ablated_brier,2,0.0018727898550621458,0.5511967797676358,max_depth,64
+Fox,focal_even,1,0.29218750000000004,,,64
+Fox,focal_even -> focal_odd,2,0.009374999999999994,0.6317737642848527,max_depth,64
+Fox,focal_even -> reference_shift,2,0.013281250000000008,0.9315102023768937,max_depth,64
+Fox,focal_odd,1,0.290625,,,64
+Fox,focal_odd -> focal_even,2,0.0031250000000000305,0.702154718256257,max_depth,64
+Fox,focal_odd -> reference_shift,2,0.007031249999999989,0.9136579460854284,max_depth,64
+Fox,reference_shift,1,0.22265625,,,64
+Fox,reference_shift -> focal_even,2,0.011718750000000014,0.898741401249094,max_depth,64
+Fox,reference_shift -> focal_odd,2,0.002343749999999978,-0.17644051507034672,bootstrap_instability,64
+Spider,focal_even,1,0.28671875,,,64
+Spider,focal_even -> focal_odd,2,0.007031250000000003,0.83619103760794,max_depth,64
+Spider,focal_even -> reference_shift,2,0.013281250000000022,0.9107076913111516,max_depth,64
+Spider,focal_odd,1,0.29921875,,,64
+Spider,focal_odd -> focal_even,2,0.004687500000000025,0.7211904128917723,max_depth,64
+Spider,focal_odd -> reference_shift,2,0.014062499999999978,0.9629857481241361,max_depth,64
+Spider,reference_shift,1,0.22578125000000004,,,64
+Spider,reference_shift -> focal_even,2,0.007812499999999986,0.7064346414479443,max_depth,64
+Spider,reference_shift -> focal_odd,2,0.008593750000000011,0.7642108577419943,max_depth,64
+Raven,focal_even,1,0.33303571428571427,,,64
+Raven,focal_even -> focal_odd,2,0.0035714285714285726,0.5371361376467947,max_depth,64
+Raven,focal_even -> reference_shift,2,0.01428571428571429,0.9569423427897028,max_depth,64
+Raven,focal_odd,1,0.24308035714285717,,,64
+Raven,focal_odd -> focal_even,2,0.004687500000000011,0.7283464475579731,max_depth,64
+Raven,focal_odd -> reference_shift,2,0.010044642857142877,0.8632376240313522,max_depth,64
+Raven,reference_shift,1,0.22946428571428568,,,64
+Raven,reference_shift -> focal_even,2,0.006919642857142874,0.5559959495354168,max_depth,64
+Raven,reference_shift -> focal_odd,2,0.009821428571428578,0.9203312338969786,max_depth,64
+Dolphin,focal_even,1,0.30170454545454545,,,64
+Dolphin,focal_even -> focal_odd,2,0.005113636363636376,0.6839368412933131,max_depth,64
+Dolphin,focal_even -> reference_shift,2,0.013636363636363669,0.9316434322458709,max_depth,64
+Dolphin,focal_odd,1,0.2585227272727273,,,64
+Dolphin,focal_odd -> focal_even,2,0.0056818181818182045,0.7841224709244252,max_depth,64
+Dolphin,focal_odd -> reference_shift,2,0.010653409090909116,0.9593541466177335,max_depth,64
+Dolphin,reference_shift,1,0.2134943181818182,,,64
+Dolphin,reference_shift -> focal_even,2,0.007528409090909113,0.83072046528638,max_depth,64
+Dolphin,reference_shift -> focal_odd,2,0.012073863636363646,0.8786666862184856,max_depth,64
+Ant,focal_even,1,0.31022727272727274,,,64
+Ant,focal_even -> focal_odd,2,0.003409090909090917,0.716605697987533,max_depth,64
+Ant,focal_even -> reference_shift,2,0.012784090909090925,0.929519298842736,max_depth,64
+Ant,focal_odd,1,0.2613636363636364,,,64
+Ant,focal_odd -> focal_even,2,0.004971590909090898,0.7778941322056674,max_depth,64
+Ant,focal_odd -> reference_shift,2,0.009943181818181823,0.8481973883270717,max_depth,64
+Ant,reference_shift,1,0.2248579545454546,,,64
+Ant,reference_shift -> focal_even,2,0.0042613636363636465,0.16699385393823177,bootstrap_instability,64
+Ant,reference_shift -> focal_odd,2,0.008664772727272771,0.9029453659133986,max_depth,64
+Moth,focal_even,1,0.34107142857142864,,,64
+Moth,focal_even -> focal_odd,2,0.0035714285714285587,0.24993901700552784,bootstrap_instability,64
+Moth,focal_even -> reference_shift,2,0.017857142857142863,0.9649828199325526,max_depth,64
+Moth,focal_odd,1,0.24642857142857144,,,64
+Moth,focal_odd -> focal_even,2,0.0006696428571428686,0.3664385828589789,bootstrap_instability,64
+Moth,focal_odd -> reference_shift,2,0.011383928571428559,0.9728450203795227,max_depth,64
+Moth,reference_shift,1,0.22232142857142861,,,64
+Moth,reference_shift -> focal_even,2,0.01696428571428575,0.8986048013123759,max_depth,64
+Moth,reference_shift -> focal_odd,2,0.011830357142857142,0.6484398137869682,max_depth,64
+Shark,focal_even,1,0.2944711538461539,,,64
+Shark,focal_even -> focal_odd,2,0.005889423076923084,0.6735601079741987,max_depth,64
+Shark,focal_even -> reference_shift,2,0.015144230769230743,0.9363730643337032,max_depth,64
+Shark,focal_odd,1,0.25024038461538456,,,64
+Shark,focal_odd -> focal_even,2,0.005048076923076933,0.8075200549586992,max_depth,64
+Shark,focal_odd -> reference_shift,2,0.011538461538461539,0.9375285243053444,max_depth,64
+Shark,reference_shift,1,0.23822115384615383,,,64
+Shark,reference_shift -> focal_even,2,0.013581730769230776,0.8625154438217919,max_depth,64
+Shark,reference_shift -> focal_odd,2,0.007692307692307707,0.7041331977375711,max_depth,64
+Penguin,focal_even,1,0.28125,,,64
+Penguin,focal_even -> focal_odd,2,0.005468750000000008,0.7629889956025402,max_depth,64
+Penguin,focal_even -> reference_shift,2,0.011718750000000028,0.9306353265974541,max_depth,64
+Penguin,focal_odd,1,0.28203125000000007,,,64
+Penguin,focal_odd -> focal_even,2,0.007812500000000014,0.9607771207310196,max_depth,64
+Penguin,focal_odd -> reference_shift,2,0.01171875,0.9435341697295413,max_depth,64
+Penguin,reference_shift,1,0.22109375,,,64
+Penguin,reference_shift -> focal_even,2,0.012500000000000011,0.7601933203588579,max_depth,64
+Penguin,reference_shift -> focal_odd,2,0.009374999999999994,0.727349550953729,max_depth,64
+Bat,gain,1,0.59375,,,64
+Bat,gain -> placebo_gain,2,0.125,0.915510774889563,max_depth,64
+Bat,gain -> incremental_brier,2,0.296875,0.9875132738469287,max_depth,64
+Bat,placebo_gain,1,0.21875,,,64
+Bat,placebo_gain -> gain,2,0.1875,0.9963888607152998,max_depth,64
+Bat,placebo_gain -> incremental_brier,2,0.109375,0.9618652197956895,max_depth,64
+Bat,incremental_brier,1,0.234375,,,64
+Bat,incremental_brier -> gain,2,0.203125,0.9969428635958801,max_depth,64
+Bat,incremental_brier -> placebo_gain,2,0.046875,0.7756898112304615,max_depth,64
+Hedgehog,median_gain,1,0.484375,,,64
+Hedgehog,median_gain -> win_rate,2,0.328125,0.9949559746197784,max_depth,64
+Hedgehog,win_rate,1,0.578125,,,64
+Hedgehog,win_rate -> median_gain,2,0.296875,0.9883193042972508,max_depth,64
+Crocodile,treated_post,1,0.7369792164173778,,,64
+Crocodile,treated_post -> treated_pre,2,0.007460827465915393,0.9020989719687933,max_depth,64
+Crocodile,treated_post -> control_post,2,0.003134033064001396,0.6295633581557216,max_depth,64
+Crocodile,treated_pre,1,0.7598017195274487,,,64
+Crocodile,treated_pre -> treated_post,2,0.0021395183796580897,0.09034834865831513,bootstrap_instability,64
+Crocodile,treated_pre -> control_post,2,0.003201055627740007,0.7457807179517773,max_depth,64
+Crocodile,control_post,1,0.7301638624958151,,,64
+Crocodile,control_post -> treated_post,2,0.010168466027845435,0.8839141408852722,max_depth,64
+Crocodile,control_post -> treated_pre,2,0.006133590993851273,0.3391956515319406,bootstrap_instability,64
+Dragon,focal_even,1,0.3085227272727273,,,64
+Dragon,focal_even -> focal_odd,2,0.003409090909090945,0.09123247916432506,bootstrap_instability,64
+Dragon,focal_even -> reference_shift,2,0.012784090909090925,0.9213404840327089,max_depth,64
+Dragon,focal_odd,1,0.2542613636363636,,,64
+Dragon,focal_odd -> focal_even,2,0.0021306818181817816,0.276874828459469,bootstrap_instability,64
+Dragon,focal_odd -> reference_shift,2,0.01065340909090913,0.9572719337337341,max_depth,64
+Dragon,reference_shift,1,0.23423295454545454,,,64
+Dragon,reference_shift -> focal_even,2,0.003977272727272774,0.3550055229661007,bootstrap_instability,64
+Dragon,reference_shift -> focal_odd,2,0.004687499999999983,0.6168038371021997,max_depth,64
+Turtle,score,1,0.5625,,,64
+Turtle,score -> veto_gate,2,0.265625,0.9594987580780656,max_depth,64
+Turtle,veto_gate,1,0.1875,,,64
+Turtle,veto_gate -> score,2,0.1875,0.9999720913792987,max_depth,64
+Magpie,support,1,0.11558931223077995,,,64
+Magpie,support -> provenance,2,0.028534473511512913,0.998703294192656,max_depth,64
+Magpie,support -> contradiction,2,0.011160103366961452,0.9753031125613556,max_depth,64
+Magpie,provenance,1,0.11361140968684169,,,64
+Magpie,provenance -> support,2,0.03161078220475235,0.998420465854981,max_depth,64
+Magpie,provenance -> contradiction,2,0.00974923227909405,0.9704203376731112,max_depth,64
+Magpie,contradiction,1,0.19741724105050365,,,64
+Magpie,contradiction -> support,2,0.012068949698916337,0.9632390984201268,max_depth,64
+Magpie,contradiction -> provenance,2,0.014774245903600838,0.9492315413450833,max_depth,64
+Wolf,rho,1,0.023982039040516955,,,64
+Wolf,rho -> previous,2,0.18031176954404865,0.9968539869716212,max_depth,64
+Wolf,rho -> instantaneous,2,0.1656194833495162,0.9948829458844589,max_depth,64
+Wolf,previous,1,0.3730418057268942,,,64
+Wolf,previous -> rho,2,0.1774404380396981,0.9990790232380422,max_depth,64
+Wolf,previous -> instantaneous,2,0.013104881563388418,0.4611859054996013,bootstrap_instability,64
+Wolf,instantaneous,1,0.37641702026846174,,,64
+Wolf,instantaneous -> rho,2,0.17666603867509184,0.9992611360750574,max_depth,64
+Wolf,instantaneous -> previous,2,0.017842572322108563,0.6786119217034505,max_depth,64
+Elephant,active_gate_1,1,1.0,,,64
+Elephant,active_gate_1 -> active_gate_2,2,0.140625,0.8977200533430876,max_depth,64
+Elephant,active_gate_1 -> active_gate_3,2,0.234375,0.8733340445401394,max_depth,64
+Elephant,active_gate_2,1,1.0,,,64
+Elephant,active_gate_2 -> active_gate_1,2,0.109375,0.8968316764804631,max_depth,64
+Elephant,active_gate_2 -> active_gate_3,2,0.09375,0.513088086535394,max_depth,64
+Elephant,active_gate_3,1,1.0,,,64
+Elephant,active_gate_3 -> active_gate_1,2,0.15625,0.884881548529143,max_depth,64
+Elephant,active_gate_3 -> active_gate_2,2,0.0625,0.68713963483366,max_depth,64
+Chameleon,observed_distance,1,0.4377784479534551,,,64
+Chameleon,observed_distance -> expected_adaptation,2,0.2083691447231821,0.9954765713014728,max_depth,64
+Chameleon,expected_adaptation,1,0.22826500169815986,,,64
+Chameleon,expected_adaptation -> observed_distance,2,0.20457682308053335,0.9948194339776082,max_depth,64
+Jellyfish,health,1,0.702125985842457,,,64
+Jellyfish,health -> alpha,2,0.07297815195237511,0.9787367009180463,max_depth,64
+Jellyfish,health -> incoming,2,0.09058435344883517,0.9741122018416726,max_depth,64
+Jellyfish,alpha,1,0.22626585869155688,,,64
+Jellyfish,alpha -> health,2,0.09618035882559467,0.9857631723709872,max_depth,64
+Jellyfish,alpha -> incoming,2,0.09138212147639571,0.9938245892241129,max_depth,64
+Jellyfish,incoming,1,0.2197151874249434,,,64
+Jellyfish,incoming -> health,2,0.1018419659976322,0.9929169547304819,max_depth,64
+Jellyfish,incoming -> alpha,2,0.10392306896566333,0.9914167895921205,max_depth,64
+Beaver,effectiveness,1,0.28125,,,64
+Beaver,effectiveness -> collateral,2,0.140625,0.9540440574966685,max_depth,64
+Beaver,effectiveness -> verification,2,0.171875,0.9900618703987485,max_depth,64
+Beaver,collateral,1,0.171875,,,64
+Beaver,collateral -> effectiveness,2,0.125,0.9583012056583413,max_depth,64
+Beaver,collateral -> verification,2,0.09375,0.9244661701981651,max_depth,64
+Beaver,verification,1,0.25,,,64
+Beaver,verification -> effectiveness,2,0.140625,0.9692309138135247,max_depth,64
+Beaver,verification -> collateral,2,0.171875,0.9705476467813634,max_depth,64
+Mantis,z_variance,1,0.671875,,,64
+Mantis,z_variance -> z_autocorrelation,2,0.078125,0.8117235812850503,max_depth,64
+Mantis,z_variance -> z_curvature,2,0.03125,0.46510473649236683,bootstrap_instability,64
+Mantis,z_autocorrelation,1,0.5625,,,64
+Mantis,z_autocorrelation -> z_variance,2,0.1875,0.8881697711701184,max_depth,64
+Mantis,z_autocorrelation -> z_curvature,2,0.109375,0.592395200127966,max_depth,64
+Mantis,z_curvature,1,0.640625,,,64
+Mantis,z_curvature -> z_variance,2,0.140625,0.9303941142620891,max_depth,64
+Mantis,z_curvature -> z_autocorrelation,2,0.109375,0.8530640192887857,max_depth,64
+Bison,demand,1,4.5345219861866175,,,64
+Bison,demand -> queue,2,1.381261165603012,0.9842318614480838,max_depth,64
+Bison,demand -> capacity,2,1.7852162856179814,0.9943411235453234,max_depth,64
+Bison,queue,1,3.9522721569038772,,,64
+Bison,queue -> demand,2,1.7578837424198324,0.990105910489725,max_depth,64
+Bison,queue -> capacity,2,1.6546965951858186,0.9975038503719424,max_depth,64
+Bison,capacity,1,2.7415985083958248,,,64
+Bison,capacity -> demand,2,1.8049366018251876,0.9936656987730266,max_depth,64
+Bison,capacity -> queue,2,1.3866252495173554,0.9853514753698058,max_depth,64
+Weasel,changed_keys_gate,1,0.484375,,,64
+Weasel,changed_keys_gate -> severity,2,0.234375,0.9885470496591171,max_depth,64
+Weasel,severity,1,0.453125,,,64
+Weasel,severity -> changed_keys_gate,2,0.328125,0.9807396435217437,max_depth,64
+Salmon,weight,1,0.11034279613975427,,,64
+Salmon,weight -> parent_weight_1,2,0.07989065065464805,0.9977841707459352,max_depth,64
+Salmon,weight -> parent_weight_2,2,0.08758257559872483,0.9975472239354871,max_depth,64
+Salmon,parent_weight_1,1,0.15636291464127258,,,64
+Salmon,parent_weight_1 -> weight,2,0.09306502777447999,0.9902929070912654,max_depth,64
+Salmon,parent_weight_1 -> parent_weight_2,2,0.09141387500464174,0.9882380865286124,max_depth,64
+Salmon,parent_weight_2,1,0.13087761804198758,,,64
+Salmon,parent_weight_2 -> weight,2,0.08974452876098397,0.9932341437248942,max_depth,64
+Salmon,parent_weight_2 -> parent_weight_1,2,0.07717123247760257,0.9902264649576922,max_depth,64
+Orca,consistency,1,0.2188313227556609,,,64
+Orca,consistency -> integrity,2,0.002726045610019906,0.882636064468096,max_depth,64
+Orca,consistency -> conflict,2,0.0020120014920554097,0.8133382826219707,max_depth,64
+Orca,integrity,1,0.22427831886147975,,,64
+Orca,integrity -> consistency,2,0.0002564396368709282,0.7621379929421128,max_depth,64
+Orca,integrity -> conflict,2,0.0002366925073073456,0.43918038992512576,bootstrap_instability,64
+Orca,conflict,1,0.14467909863366984,,,64
+Orca,conflict -> consistency,2,0.0020968561770428884,0.9056072667952564,max_depth,64
+Orca,conflict -> integrity,2,0.0019645143142902194,0.9065025893651719,max_depth,64
+Mole,surface_health,1,0.390625,,,64
+Mole,surface_health -> latent_degradation,2,0.1875,0.9571704605762357,max_depth,64
+Mole,surface_health -> coverage,2,0.203125,0.9818328947359551,max_depth,64
+Mole,latent_degradation,1,0.359375,,,64
+Mole,latent_degradation -> surface_health,2,0.125,0.8888605786352524,max_depth,64
+Mole,latent_degradation -> coverage,2,0.171875,0.9718104158823448,max_depth,64
+Mole,coverage,1,0.265625,,,64
+Mole,coverage -> surface_health,2,0.140625,0.9768117045363297,max_depth,64
+Mole,coverage -> latent_degradation,2,0.125,0.9457963385403563,max_depth,64
+Lynx,distance,1,0.1514756239870937,,,64
+Lynx,distance -> rarity,2,0.010283993628861544,0.82435234085864,max_depth,64
+Lynx,distance -> replication,2,0.07239316477559396,0.9994527453797057,max_depth,64
+Lynx,rarity,1,0.14569895848762532,,,64
+Lynx,rarity -> distance,2,0.00620844641207207,0.7888128321340753,max_depth,64
+Lynx,rarity -> replication,2,0.07038646826816766,0.9996966692747227,max_depth,64
+Lynx,replication,1,0.21544357636734984,,,64
+Lynx,replication -> distance,2,0.07523469633048432,0.9951837922062654,max_depth,64
+Lynx,replication -> rarity,2,0.07357384642672674,0.9968313011697315,max_depth,64
+Horse,workload,1,0.27712510338043367,,,64
+Horse,workload -> attention,2,0.058531739969365996,0.8572277552981575,max_depth,64
+Horse,workload -> fatigue,2,0.007887615968527592,0.567344500145166,max_depth,64
+Horse,attention,1,0.37140710080495093,,,64
+Horse,attention -> workload,2,0.006500298117036424,0.9772359521586005,max_depth,64
+Horse,attention -> fatigue,2,0.006757733203377692,0.9869405345756707,max_depth,64
+Horse,fatigue,1,0.36988871443315485,,,64
+Horse,fatigue -> workload,2,0.00416453822178503,0.9923432864651266,max_depth,64
+Horse,fatigue -> attention,2,0.006078666995963766,0.9777149395026011,max_depth,64
+Termite,state,1,0.36481924886069794,,,64
+Termite,state -> susceptibility,2,0.1876724303444297,0.9997962822787145,max_depth,64
+Termite,state -> incoming_target,2,0.01832510066791855,0.7798926211415655,max_depth,64
+Termite,susceptibility,1,0.008745771217976095,,,64
+Termite,susceptibility -> state,2,0.1957547725691099,0.9959255883621365,max_depth,64
+Termite,susceptibility -> incoming_target,2,0.19446824931363849,0.9971359242854221,max_depth,64
+Termite,incoming_target,1,0.41162818372063226,,,64
+Termite,incoming_target -> state,2,0.03471464805834712,0.7556813134512452,max_depth,64
+Termite,incoming_target -> susceptibility,2,0.19289594963497775,0.9997532932677511,max_depth,64
+Phoenix,fidelity,1,0.30119111140790517,,,64
+Phoenix,fidelity -> integrity,2,0.003663856683441269,0.6672853037702753,max_depth,64
+Phoenix,fidelity -> capability,2,0.0039424421345697624,0.8363850217502855,max_depth,64
+Phoenix,integrity,1,0.21369424305870596,,,64
+Phoenix,integrity -> fidelity,2,0.0019328404160100093,0.6755074395728216,max_depth,64
+Phoenix,integrity -> capability,2,0.001118358003694947,0.305113131536248,bootstrap_instability,64
+Phoenix,capability,1,0.22488050094539144,,,64
+Phoenix,capability -> fidelity,2,0.0024698649500798364,0.8637718583531974,max_depth,64
+Phoenix,capability -> integrity,2,0.00141603478270233,0.8128973059819442,max_depth,64
+Cobra,previous,1,0.1294469679054036,,,64
+Cobra,previous -> divergence,2,0.0037456985454170713,-0.002320707769310232,bootstrap_instability,64
+Cobra,previous -> confidence,2,0.05795631727028164,0.9997174324170914,max_depth,64
+Cobra,divergence,1,0.030235419864138503,,,64
+Cobra,divergence -> previous,2,0.0018228614186247202,0.7771784603810531,max_depth,64
+Cobra,divergence -> confidence,2,0.01460607013874561,0.9993199808484752,max_depth,64
+Cobra,confidence,1,0.1956202885680946,,,64
+Cobra,confidence -> previous,2,0.060671526489689626,0.9991632629187431,max_depth,64
+Cobra,confidence -> divergence,2,0.01537974154704004,0.9221214707636212,max_depth,64
+Whale,history_1,1,0.15050777218312555,,,64
+Whale,history_1 -> history_2,2,0.0247138655775489,0.5945718747793923,max_depth,64
+Whale,history_1 -> history_3,2,0.026780969252557536,0.8934548769320421,max_depth,64
+Whale,history_2,1,0.14621479152887912,,,64
+Whale,history_2 -> history_1,2,0.01907501353695927,0.7598894720880874,max_depth,64
+Whale,history_2 -> history_3,2,0.031201457766499168,0.9026701736637448,max_depth,64
+Whale,history_3,1,0.15835855980117386,,,64
+Whale,history_3 -> history_1,2,0.014454209625795997,0.569998041247386,max_depth,64
+Whale,history_3 -> history_2,2,0.034265359046481265,0.9513392769612736,max_depth,64
+Falcon,hazard_time,1,71.0,,,64
+Falcon,hazard_time -> alarm_time,2,0.953125,0.8990640531062041,max_depth,64
+Falcon,hazard_time -> delay,2,0.203125,-0.11089876466388877,bootstrap_instability,64
+Falcon,alarm_time,1,74.0,,,64
+Falcon,alarm_time -> hazard_time,2,0.484375,0.7657614163879591,max_depth,64
+Falcon,alarm_time -> delay,2,0.5625,0.7180284059321347,max_depth,64
+Falcon,delay,1,15.0,,,64
+Falcon,delay -> hazard_time,2,0.109375,0.44739434060278993,bootstrap_instability,64
+Falcon,delay -> alarm_time,2,0.203125,0.8989043859029253,max_depth,64
+Rhino,baseline,1,0.257215682981622,,,64
+Rhino,baseline -> after,2,0.12704827459665052,0.9879484561506537,max_depth,64
+Rhino,after,1,0.5074077971318078,,,64
+Rhino,after -> baseline,2,0.047749818950677037,0.8174119796245441,max_depth,64
+Bonobo,baseline_utility,1,0.764061894328036,,,64
+Bonobo,baseline_utility -> new_utility,2,0.011965311703750842,0.9565176596992033,max_depth,64
+Bonobo,new_utility,1,0.7210307111407777,,,64
+Bonobo,new_utility -> baseline_utility,2,0.004380143373453271,0.8044979353838484,max_depth,64
+Axolotl,damaged,1,0.21116425126640037,,,64
+Axolotl,damaged -> adapted,2,0.05895649381604483,0.9728171949101029,max_depth,64
+Axolotl,damaged -> cost,2,0.023854910018240534,0.8401136252779515,max_depth,64
+Axolotl,adapted,1,0.5020452441032157,,,64
+Axolotl,adapted -> damaged,2,0.014843745158996419,0.3687470264185547,bootstrap_instability,64
+Axolotl,adapted -> cost,2,0.03324993090936512,0.6046125885644346,max_depth,64
+Axolotl,cost,1,0.02158526741948766,,,64
+Axolotl,cost -> damaged,2,0.012595996052765488,0.9809023470017014,max_depth,64
+Axolotl,cost -> adapted,2,0.013428040948216948,0.9847237436229548,max_depth,64
+Butterfly,state,1,0.5129321400642697,,,64
+Butterfly,state -> gain,2,0.2194706728343758,0.9924044215712057,max_depth,64
+Butterfly,state -> incoming,2,0.03923038138023527,0.6655041092419589,max_depth,64
+Butterfly,gain,1,0.14736831918106721,,,64
+Butterfly,gain -> state,2,0.1532705173219477,0.9997307289305455,max_depth,64
+Butterfly,gain -> incoming,2,0.009054976002468552,0.5071713204426449,max_depth,64
+Butterfly,incoming,1,0.7140685856611536,,,64
+Butterfly,incoming -> state,2,0.0012023057869812726,0.2690515441782901,bootstrap_instability,64
+Butterfly,incoming -> gain,2,0.004249446375866467,0.5058898032701931,max_depth,64
+constant_control,x,1,0.0,,effect_below_tolerance,256
+constant_control,y,1,0.0,,effect_below_tolerance,256
+additive_control,x,1,7.402557672724131,,,256
+additive_control,x -> y,2,5.667974156828635,0.9998930241677029,max_depth,256
+additive_control,y,1,7.542889879729113,,,256
+additive_control,y -> x,2,5.621498932216994,0.9999461414920869,max_depth,256

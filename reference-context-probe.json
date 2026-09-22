@@ -1,0 +1,223 @@
+[
+  {
+    "animal": "Owl",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Octopus",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Gecko",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Hive",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Eagle",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Crab",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Shepherd",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Pulse",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Fox",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Spider",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Raven",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Dolphin",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Ant",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Moth",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Shark",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7,
+      0.4
+    ],
+    "change": -0.29999999999999993
+  },
+  {
+    "animal": "Penguin",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  },
+  {
+    "animal": "Dragon",
+    "focal_value_fixed": 0.5,
+    "reference_shifts": [
+      -0.2,
+      0.2
+    ],
+    "outputs": [
+      0.7000000000000001,
+      0.39999999999999997
+    ],
+    "change": -0.3000000000000001
+  }
+]
