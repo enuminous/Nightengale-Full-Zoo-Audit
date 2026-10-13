@@ -34,8 +34,10 @@ jobs:
         run: lake exe regression
       - name: Run the module roster
         run: lake exe zoo46
-      - name: Run the existing Nightengale audit
-        run: lake exe nightaudit
+      - name: Run the existing adapter anchor checks
+        run: |
+          lake build nightaudit
+          python3 scripts/test_adapter.py
       - name: Record verification and unchanged dependency pins
         run: |
           git diff --exit-code -- lean-toolchain lakefile.toml lakefile.lean lake-manifest.json
