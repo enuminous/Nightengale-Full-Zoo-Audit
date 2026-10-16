@@ -1,5 +1,13 @@
 # NIGHTENGALE on the full 46-animal Lean Zoo
 
+<!-- ENUMINOUS-LIFECYCLE:START -->
+**Lifecycle review — 2026-10-16: historical audit snapshot; copied Lean sources.**
+
+This bundle records selected endpoints from the Zoo at `94e0a9e2550a8fe62b03dc8213e3e3942c30899b` and NIGHTENGALE at `849c39363beafc3dac70430bf1f032e7f7ce1623`. Its 53 source blobs shared with [Monolithic-Zoo-Lean4](https://github.com/enuminous/Monolithic-Zoo-Lean4) are a frozen audit copy. The diagnostic data and audit are distinct work. Use the upstream Zoo and [Nightengale](https://github.com/enuminous/Nightengale) for current implementations. Present-tense publication/build statements in the original report describe its frozen snapshot; current Zoo verification is recorded in [BUILD_STATUS.md](https://github.com/enuminous/Monolithic-Zoo-Lean4/blob/main/BUILD_STATUS.md) and [the successful structured-report run](https://github.com/enuminous/Monolithic-Zoo-Lean4/actions/runs/38831479150). The old diagnostic results have not been rerun here against the newer implementations. Selected-endpoint coverage is not end-to-end Zoo equivalence.
+
+[Portfolio review and evidence](https://github.com/enuminous/EFMW_Post156_Zoo_Audit/blob/main/portfolio/REPOSITORY_LIFECYCLE_2026-10-16.md).
+<!-- ENUMINOUS-LIFECYCLE:END -->
+
 ## Result and scope
 
 **Demonstrated:** NIGHTENGALE executed against one explicitly selected compiled Lean output for each of all 46 animals. Every selected output was finite in the sampled domain. This is a complete roster audit of selected endpoints, not an exhaustive audit of every function, branch, theorem, upstream pipeline or scientific claim.
